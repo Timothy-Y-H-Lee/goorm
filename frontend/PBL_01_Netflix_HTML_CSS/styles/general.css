@@ -24,7 +24,7 @@ div.gnb-toggle-theme {
 div.gnb-toggle-theme::after{
     clear: both;
 }
-/* Header Theme */
+/* GNB Theme */
 .gnb-theme-button {
     background-color: transparent;
     border: none;

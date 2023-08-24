@@ -20,7 +20,7 @@
             rgba(255, 255, 255, 0) 50%,
             rgba(20, 20, 20, 0.5) 70%,
             rgba(20, 20, 20, 1) 100%
-          ), url('/assets/images/gnb.jpg');
+          ), url('../assets/images/gnb.jpg');
     background-size: cover;
 }
 
