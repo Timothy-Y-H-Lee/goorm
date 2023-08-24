@@ -14,7 +14,9 @@
 2. 제작 결과
 
 > 2.1. dark 테마
+
 >![homework1](assets/images/result_dark_theme.png)
 
 > 2.2. light 테마
+
 >![homework2](assets/images/result_light_theme.png)
