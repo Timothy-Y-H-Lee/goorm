@@ -1,0 +1,60 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: var(--primary);
+}
+
+img {
+    max-width: 100%;
+}
+
+div.gnb-toggle-theme {
+    position: absolute;
+    top : 5px;
+    right: 20px;
+}
+
+div.gnb-toggle-theme::after{
+    clear: both;
+}
+/* Header Theme */
+.gnb-theme-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.gnb-theme-button-moon {
+    display: none;
+}
+
+.gnb-theme-button-sun {
+    display: unset;
+}
+
+:root.light_theme .gnb-theme-button-moon {
+    display: unset;
+}
+
+:root.light_theme .gnb-theme-button-sun {
+    display: none;
+}
+
+:root {
+    --primary: #000;
+    --text-dark: #FAFAFA;
+    --text-light: #d3d3d3;
+}
+
+:root.light_theme {
+    --primary: #FFF;
+    --text-dark: #262626;
+    --text-light: #d3d3d3;
+}

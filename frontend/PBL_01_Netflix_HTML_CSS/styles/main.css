@@ -1,0 +1,126 @@
+.main-container {
+    background-color: var(--primary);
+    margin-top: 44px;
+    margin-bottom: 44px;
+    display: flex;
+}
+
+.gnb-container {
+    width: 100%;
+    height: 250px;
+    max-width: 1024px;
+    position: relative;
+    padding: 0 0 8px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0) 50%,
+            rgba(20, 20, 20, 0.5) 70%,
+            rgba(20, 20, 20, 1) 100%
+          ), url('/assets/images/gnb.jpg');
+    background-size: cover;
+}
+
+.movies-container {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.gnb-container .logoNetflix {
+    width: 64px;
+    height: 20px;
+    margin: 10px;
+}
+section.gnb-container h2.gnb-movie-title {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 2.5em;
+}
+section.gnb-container .gnb-movie-buttons {
+    margin-top: 2px;
+    padding-left: 15px;
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+}
+section.gnb-container .gnb-movie-buttons input[type=button]{
+    padding: 5px 25px;
+    border: 1px #7c7979 solid;
+    border-radius: 10%;
+    /* background-color: #000;
+    opacity: 0.5; */
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #fff;
+    cursor: pointer;
+}
+section.gnb-container .gnb-movie-description {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 280px;
+    height: 58px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+section.movies-container {
+    background-color: var(--primary);
+}
+
+section.movies-container .movies-section-title {
+    font-size: 10pt;
+    color: var(--text-dark);
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+section.movies-container .movies-originals, section.movies-container .movies-trending {
+    display: flex;
+    flex-direction: row;
+	flex-grow: 1;
+	justify-content: center;
+    column-gap: 20px;
+    padding: 10px 10px 20px;
+}
+section.movies-container .wrap-originals-item, section.movies-container .wrap-originals-item img,
+section.movies-container .wrap-trending-item, section.movies-container .wrap-trending-item img {
+    max-height: 120px;
+}
+
+section.movies-container .wrap-originals-item img:hover,
+section.movies-container .wrap-trending-item img:hover {
+    transform: scale(2);
+}
+
+section.movies-container .wrap-originals-item,
+section.movies-container .wrap-trending-item {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer.copyright {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: var(--text-dark);
+}
+
+@media (min-width: 620px) {
+    
+
+}
+
+@media (min-width: 1024px) {
+
+    .main-container {
+        margin: unset;
+    }
+}
