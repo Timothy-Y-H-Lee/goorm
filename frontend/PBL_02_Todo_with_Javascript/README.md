@@ -3,7 +3,7 @@
 구름 KDT 수업의 두번째 과제입니다.
 1. 요구 사항
 
-![homework1](/PBL_02_Todo_with_Javascript/assets/images/mission_todo.png)
+![homework1](assets/images/mission_todo.png)
 ```
 - mission: Todo 앱 만들기
 - 하위과제 :
