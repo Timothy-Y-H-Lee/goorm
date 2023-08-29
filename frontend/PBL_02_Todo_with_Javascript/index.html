@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo list web application</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="assets/styles/general.css">
+	<link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body>
+	<main class="wrap_todo">
+		<section class="wrap_head">
+			<h2>Todos 앱</h2>
+			<div>
+				<input type="button" value="새로운 TODO 추가하기" class="add_todo">
+			</div>
+		</section>
+		<hr>
+		<ul class="warp_todo_list">
+			<!-- <li class="wrap_todo_item">
+				<div class="todo_item" id="">
+					<label>
+						<input type="checkbox" name="todo_item_done">
+						<input class="todo_item_label_write" type="text" name="todo_item_label_write" value="밥먹기">
+						<button class="todo_item_label_save">
+							<i class="fas fa-save todo_item_label_save" style="color: #639afa"></i>
+						</button>
+						<span class="todo_item_text">밥먹기</span>
+					</label>
+				</div>
+				<div class="todo_buttons">
+					<i class="fas fa-pen" style="color: #639afa"></i>
+					<i class="fas fa-minus-circle" style="color: #639afa"></i>
+				</div>
+			</li> -->
+			<li class="wrap_todo_item">
+				<div class="todo_item" id="">
+					<!-- <label class="todo_item_label"> -->
+						<input type="checkbox" name="todo_item">
+						<div class="todo_item_text" contenteditable="true">
+							공부하기 1
+							여러 줄
+							여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄
+						</div>
+					<!-- </label> -->
+				</div>
+				<div class="todo_buttons">
+					<i class="fas fa-pen" style="color: #639afa"></i>
+					<i class="fas fa-minus-circle" style="color: #639afa"></i>
+				</div>
+			</li>
+			<li class="wrap_todo_item">
+				<div class="todo_item" id="">
+					<label class="todo_item_label">
+						<input type="checkbox" name="todo_item" checked>
+						<div class="todo_item_text done" contenteditable="false">
+							공부하기 2
+							여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄 여러 줄
+						</div>
+					</label>
+				</div>
+				<div class="todo_buttons">
+					<i class="fas fa-pen" style="color: #639afa"></i>
+					<i class="fas fa-minus-circle" style="color: #639afa"></i>
+				</div>
+			</li>
+		</ul>
+	</main>
+</body>
+</html>
