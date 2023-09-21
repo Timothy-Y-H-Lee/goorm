@@ -72,6 +72,9 @@ hr {
 	max-width: 100%;
 	/* word-wrap: break-word; */
 	/* flex-wrap: wrap; */
+	min-width: 50px;
+	background-color: #fff;
+
 }
 .todo_item_text.done {
 	text-decoration: line-through;
